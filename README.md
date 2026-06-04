@@ -1,4 +1,4 @@
-#💬 Node.js Real-Time Chat App
+# 💬 Node.js Real-Time Chat App
 
 
 
@@ -6,7 +6,7 @@ Prosta i szybka aplikacja czatowa czasu rzeczywistego zbudowana w oparciu o śro
 
 
 
-##✨ Funkcjonalności
+## ✨ Funkcjonalności
 
 
 
