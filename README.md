@@ -1,4 +1,4 @@
-\# 💬 Node.js Real-Time Chat App
+#💬 Node.js Real-Time Chat App
 
 
 
@@ -6,63 +6,64 @@ Prosta i szybka aplikacja czatowa czasu rzeczywistego zbudowana w oparciu o śro
 
 
 
-\## ✨ Funkcjonalności
+##✨ Funkcjonalności
 
 
 
-\* \*\*Komunikacja w czasie rzeczywistym:\*\* wysyłanie i odbieranie wiadomości tekstowych dzięki Socket.io.
+* **Komunikacja w czasie rzeczywistym:** wysyłanie i odbieranie wiadomości tekstowych dzięki Socket.io.
 
-\* \*\*Przesyłanie obrazów:\*\* Możliwość załączania plików graficznych (JPG, PNG, GIF). Zdjęcia są konwertowane na format Base64 po stronie klienta i renderowane bezpośrednio w oknie czatu.
+* **Przesyłanie obrazów:** Możliwość załączania plików graficznych (JPG, PNG, GIF). Zdjęcia są konwertowane na format Base64 po stronie klienta i renderowane bezpośrednio w oknie czatu.
 
-\* \*\*Wskaźnik pisania:\*\* Kiedy jeden z użytkowników wprowadza tekst, pozostali widzą animowany wskaźnik (skaczące kropki) informujący o aktywności.
+* **Wskaźnik pisania:** Kiedy jeden z użytkowników wprowadza tekst, pozostali widzą animowany wskaźnik (skaczące kropki) informujący o aktywności.
 
-\* \*\*system Anty-Spamowy:\*\* Serwer śledzi częstotliwość zapytań (tekst i obrazy). Przekroczenie limitu (domyślnie \*\*5 wiadomości w ciągu 5 sekund\*\*) skutkuje zablokowaniem użytkownika (banned), zablokowaniem interfejsu klienta oraz zerwaniem połączenia WebSockets.
+* **system Anty-Spamowy:\*\* Serwer śledzi częstotliwość zapytań (tekst i obrazy). Przekroczenie limitu (domyślnie \*\*5 wiadomości w ciągu 5 sekund**) skutkuje zablokowaniem użytkownika (banned), zablokowaniem interfejsu klienta oraz zerwaniem połączenia WebSockets.
 
-\* \*\*Powiadomienia o połączeniu:\*\* Alert informujący o dołączeniu nowego uczestnika do pokoju.
+* **Powiadomienia o połączeniu:\*\* Alert informujący o dołączeniu nowego uczestnika do pokoju.
 
-\* \*\*Identyfikacja użytkowników:\*\* Prosty system nadawania nicków przy wejściu. Własne wiadomości są oznaczane jako "Ja".
-
-
-
-\## 🛠️ Technologie
+* **Identyfikacja użytkowników:\*\* Prosty system nadawania nicków przy wejściu. Własne wiadomości są oznaczane jako "Ja".
 
 
 
-\*\*Backend:\*\*
-
-\* \[Node.js](https://nodejs.org/)
-
-\* \[Express.js](https://expressjs.com/) (serwowanie plików statycznych)
-
-\* \[Socket.io](https://socket.io/) (komunikacja WebSockets)
+## 🛠️ Technologie
 
 
 
-\*\*Frontend:\*\*
+**Backend:**
 
-\* HTML5 / CSS3 (FontAwesome dla ikon)
+* [Node.js](https://nodejs.org/)
 
-\* Vanilla JavaScript (obsługa DOM, FileReader API, klient Socket.io)
+* [Express.js](https://expressjs.com/) (serwowanie plików statycznych)
 
-
-
-\## 🚀 Instalacja i uruchomienie lokalne
+* [Socket.io](https://socket.io/) (komunikacja WebSockets)
 
 
 
-1\. \*\*Sklonuj lub pobierz projekt\*\* do lokalnego folderu.
+**Frontend:**
 
-2\. \*\*Zainstaluj zależności:\*\*
+* HTML5 / CSS3 (FontAwesome dla ikon)
 
-&#x20;  Upewnij się, że masz zainstalowanego Node.js. Następnie w terminalu, w głównym folderze projektu wpisz:
+* Vanilla JavaScript (obsługa DOM, FileReader API, klient Socket.io)
 
-&#x20;  ```bash
 
-&#x20;  npm install express socket.io
 
-3\.
+## 🚀 Instalacja i uruchomienie lokalne
 
-&#x20;  ```bash
 
-&#x20;  node server.js
+
+1. **Sklonuj lub pobierz projekt** do lokalnego folderu.
+
+2. **Zainstaluj zależności:**
+
+ Upewnij się, że masz zainstalowanego Node.js. Następnie w terminalu, w głównym folderze projektu wpisz:
+
+  ```bash
+  npm install express socket.io
+```
+
+3.
+
+ ```bash
+
+ node server.js
+```
 
