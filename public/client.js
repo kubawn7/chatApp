@@ -1,4 +1,4 @@
-const socket = io("ws://192.168.0.143:3000");
+const socket = io("ws://localhost:3000");
 const input = document.querySelector(".msg");
 const form = document.querySelector("form");
 const messages = document.querySelector(".messages");
