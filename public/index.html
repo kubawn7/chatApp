@@ -12,13 +12,24 @@
 </head>
 <body>
     <h1>CHAT APP</h1>
+    
     <div class="chat">
+         
+        
         <div class="messages"></div>
         <form action="" method="post">
-            <input type="text" class="msg" placeholder="wpisz wiadomość">
-            <label for="file" class="file-label"><i class="fa-solid fa-paperclip" id="file-icon"></i></label>
-            <input type="file" name="file" class="file" id="file" accept="image/*">
-            <button type="submit" class="sbm"><i class="fa-regular fa-paper-plane fa-2xl"></i></button>
+            <div class="input-wrapper">
+                <input type="text" class="msg" placeholder="Wpisz wiadomość...">
+                
+                <label for="file" class="file-label">
+                    <i class="fa-solid fa-paperclip"></i>
+                </label>
+                <input type="file" name="file" class="file" id="file" accept="image/*">
+                
+                <button type="submit" class="sbm">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </div>
         </form>
     </div>
     
